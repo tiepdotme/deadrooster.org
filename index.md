@@ -4,3 +4,9 @@
 
 layout: home
 ---
+
+Dead Rooster is trying to come back here as soon as we can.
+
+In the meantime, everything we wrote since 2015 is available at [blog.deadrooster.org][new].
+
+[new]: https://blog.deadrooster.org/
