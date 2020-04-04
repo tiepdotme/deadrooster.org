@@ -1,5 +1,9 @@
 install:
 	bundle install
+	git submodule update --init --remote --merge
+
+fetch-articles:
+	git submodule update --init --remote --merge
 
 run:
 	bundle exec jekyll serve
