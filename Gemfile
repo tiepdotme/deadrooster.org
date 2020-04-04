@@ -5,9 +5,8 @@ ruby '2.6.3'
 
 gem 'jekyll', '~> 4.0.0'
 
-# This is the default theme for new Jekyll sites.
-# You may change this to anything you like.
-gem 'minima', '~> 2.5'
+# This is a lightweight Jekyll theme we want to use.
+gem 'kids'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
