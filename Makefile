@@ -14,3 +14,9 @@ build:
 clean:
 	rm -rf .jekyll-cache/
 	rm -rf _site/
+
+lint:
+	bundle exec rubocop
+	
+lintfix:
+	bundle exec rubocop -a
