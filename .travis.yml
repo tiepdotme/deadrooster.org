@@ -1,0 +1,18 @@
+language: ruby
+cache: bundler
+
+install:
+  - make install
+
+script:
+  - make build
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  local-dir: _site
+  target-branch: gh-pages
+  fqdn: deadrooster.org
+  on:
+    branch: master
