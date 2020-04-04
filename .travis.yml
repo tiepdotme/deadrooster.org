@@ -2,6 +2,9 @@ language: ruby
 cache: bundler
 
 install:
+  # Install the right version of Bundler
+  # from https://bundler.io/blog/2019/05/14/solutions-for-cant-find-gem-bundler-with-executable-bundle.html
+  - gem install bundler -v "$(grep -A 1 "BUNDLED WITH" Gemfile.lock | tail -n 1)"
   - make install
 
 script:
