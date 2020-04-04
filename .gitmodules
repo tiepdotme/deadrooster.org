@@ -1,0 +1,5 @@
+[submodule "_posts"]
+	path = _posts
+	url = https://github.com/DeadRooster/articles
+	branch = master
+	ignore = all

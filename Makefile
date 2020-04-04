@@ -1,5 +1,9 @@
 install:
 	bundle install
+	git submodule update --init --remote --merge
+
+fetch-articles:
+	git submodule update --init --remote --merge
 
 run:
 	bundle exec jekyll serve
@@ -10,3 +14,9 @@ build:
 clean:
 	rm -rf .jekyll-cache/
 	rm -rf _site/
+
+lint:
+	bundle exec rubocop
+	
+lintfix:
+	bundle exec rubocop -a
