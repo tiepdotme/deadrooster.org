@@ -34,6 +34,15 @@ github_username: DeadRooster
 theme: kids
 plugins:
   - jekyll-feed
+
+kids:
+  # A boolean indicating if the site contains an Apple touch icon file
+  apple_touch_icon: false
+  # The maximal number of posts featured on the home
+  home_posts: 50
+  # A boolean indicating if the site contains a `site.webmanifest` file
+  webmanifest: false
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

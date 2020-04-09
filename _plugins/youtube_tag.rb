@@ -11,8 +11,9 @@ module Jekyll
 
     def render(_context)
       <<~RENDERED_HTML
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/#{@youtube_id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-        </iframe>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/#{@youtube_id}?rel=0" allowfullscreen></iframe>
+        </div>
       RENDERED_HTML
     end
   end
