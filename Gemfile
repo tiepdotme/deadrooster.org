@@ -18,6 +18,7 @@ group :jekyll_plugins do
       git: 'https://github.com/envygeeks/jekyll-assets',
       branch: 'master'
   gem 'jekyll-feed', '~> 0.12'
+  gem 'jekyll-sitemap'
 end
 
 # Windows and JRuby does not include zoneinfo files,
