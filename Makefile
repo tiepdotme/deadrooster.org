@@ -10,6 +10,7 @@ run:
 
 build:
 	bundle exec jekyll build
+	bundle exec ./scripts/create_google_search_console_verification_file.rb
 
 clean:
 	rm -rf .jekyll-cache/
