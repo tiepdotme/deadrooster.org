@@ -44,6 +44,7 @@ GEM
     commonmarker (0.21.0)
       ruby-enum (~> 0.5)
     concurrent-ruby (1.1.6)
+    dotenv (2.7.5)
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
@@ -147,6 +148,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  dotenv
   jekyll (~> 4.0.0)
   jekyll-assets!
   jekyll-feed (~> 0.12)
