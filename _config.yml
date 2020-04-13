@@ -34,6 +34,7 @@ github_username: DeadRooster
 theme: kids
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 kids:
   # A boolean indicating if the site contains an Apple touch icon file
