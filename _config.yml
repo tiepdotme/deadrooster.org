@@ -32,6 +32,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://deadrooster.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dead__rooster
 github_username: DeadRooster
+markdown: CommonMark
 
 # Build settings
 theme: kids

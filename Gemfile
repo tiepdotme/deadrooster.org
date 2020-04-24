@@ -21,6 +21,7 @@ group :jekyll_plugins do
   gem 'jekyll-assets',
       git: 'https://github.com/envygeeks/jekyll-assets',
       branch: 'master'
+  gem 'jekyll-commonmark'
   gem 'jekyll-feed', '~> 0.12'
   gem 'jekyll-sitemap'
 end
