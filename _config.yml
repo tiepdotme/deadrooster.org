@@ -20,15 +20,19 @@
 
 title: Dead Rooster
 lang: fr
+repository:
+  url: https://github.com/DeadRooster/articles
+  name: DeadRooster/articles
 permalink: /:title/
 description: >- # this means to ignore newlines until "baseurl:"
-  Our old Dead Rooster website experienced a fatal crash and cannot be repaired.
-  While you can find the latest version of the site at blog.deadrooster.org, this
-  is a work in progress effort to bring our old posts here.
+  Le serveur de notre bon vieux site historique a connu un crash pendant le
+  confinement et ne peut être réparé. Confinement oblige, on n'a pas accès aux
+  backups mais on prépare le terrain pour ramener les vieux contenus ici.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://deadrooster.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dead__rooster
 github_username: DeadRooster
+markdown: CommonMark
 
 # Build settings
 theme: kids
@@ -37,10 +41,11 @@ plugins:
   - jekyll-sitemap
 
 kids:
+  archives_path: "archives/"
   # A boolean indicating if the site contains an Apple touch icon file
   apple_touch_icon: false
   # The maximal number of posts featured on the home
-  home_posts: 50
+  home_posts: 5
   # A boolean indicating if the site contains a `site.webmanifest` file
   webmanifest: false
 

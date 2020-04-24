@@ -3,10 +3,12 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+list_title: Derniers posts
 ---
 
 Dead Rooster is trying to come back here as soon as we can.
 
-In the meantime, everything we wrote since 2015 is available at [blog.deadrooster.org][new].
+In the meantime, everything we wrote since 2015 is available at
+[blog.deadrooster.org][new].
 
 [new]: https://blog.deadrooster.org/

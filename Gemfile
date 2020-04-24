@@ -14,13 +14,14 @@ gem 'kids',
 group :jekyll_plugins do
   gem 'buckygem',
       git: 'https://github.com/dirtyhenry/buckygem.git',
-      tag: '0.5.0'
+      branch: 'master'
 
   # As of version 3.0.12, jekyll-assets can't work with Jekyll 4
   # ... but the master branch can
   gem 'jekyll-assets',
       git: 'https://github.com/envygeeks/jekyll-assets',
       branch: 'master'
+  gem 'jekyll-commonmark'
   gem 'jekyll-feed', '~> 0.12'
   gem 'jekyll-sitemap'
 end

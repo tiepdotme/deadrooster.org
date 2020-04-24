@@ -1,7 +1,7 @@
 GIT
   remote: https://github.com/dirtyhenry/buckygem.git
-  revision: 2477cc8067d4fb9ff2d466d5714ab327bf8f40ee
-  tag: 0.5.0
+  revision: f6a9dc42c9cd555d74eda964558452b2d0726138
+  branch: master
   specs:
     buckygem (0.5.0)
       i18n
@@ -10,10 +10,11 @@ GIT
 
 GIT
   remote: https://github.com/dirtyhenry/kids.git
-  revision: 54d7de5ba32f4aa25f86fd08fea3a15d88a9218d
+  revision: eebd4ed42288b5dd502b4092b2fe62a0ce53c991
   branch: master
   specs:
     kids (0.1.1)
+      buckygem (~> 0.5)
       jekyll (>= 4.0, < 5.0)
       jekyll-assets
       jekyll-commonmark (~> 1.3)
@@ -100,7 +101,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.1.0)
+    kramdown (2.2.1)
+      rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
@@ -165,6 +167,7 @@ DEPENDENCIES
   dotenv
   jekyll (~> 4.0.0)
   jekyll-assets!
+  jekyll-commonmark
   jekyll-feed (~> 0.12)
   jekyll-sitemap
   kids!
