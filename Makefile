@@ -21,3 +21,6 @@ lint:
 	
 lintfix:
 	bundle exec rubocop -a
+
+run-legacy-mysql:
+	docker-compose -f stack.yml up
