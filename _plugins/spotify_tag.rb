@@ -9,9 +9,7 @@ module Jekyll
       super
       args = text.strip.split(' ', 2)
 
-      if args.count < 1 || args.count > 2
-        raise 'Spotify tag usage: {% spotify playlist_id localized_title %}'
-      end
+      raise 'Spotify tag usage: {% spotify playlist_id localized_title %}' if args.count < 1 || args.count > 2
 
       @playlist_id = args[0]
       @playlist_author = args[1]
