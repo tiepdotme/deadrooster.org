@@ -25,9 +25,9 @@ repository:
   name: DeadRooster/articles
 permalink: /:title/
 description: >- # this means to ignore newlines until "baseurl:"
-  Le serveur de notre bon vieux site historique a connu un crash pendant le
-  confinement et ne peut être réparé. Confinement oblige, on n'a pas accès aux
-  backups mais on prépare le terrain pour ramener les vieux contenus ici.
+  Un blog de 15 ans, rédigés par des presque quarantenaires qui parlent de rock,
+  de films, de foot et de n'imp. Autrefois fringuant, aujourd'hui moins disert
+  et en cours de migration vers le 3.0.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://deadrooster.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: dead__rooster
